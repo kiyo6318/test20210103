@@ -1,6 +1,5 @@
 import React, {ReactNode} from 'react'
 import styles from '../styles/Items.module.css'
-import Image from 'next/image'
 
 export default function Items(){
   return(

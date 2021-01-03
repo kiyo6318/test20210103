@@ -10,11 +10,11 @@ export default function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.flex_container}>
-        <Logo className={styles.logo}/>
+        {/* <Logo className={styles.logo}/> */}
         <div className={styles.external}>
-          <Instagram className={styles.instagram} />
-          <Facebook className={styles.facebook} />
-          <Email className={styles.email} />
+          {/* <Instagram className={styles.instagram} /> */}
+          {/* <Facebook className={styles.facebook} /> */}
+          {/* <Email className={styles.email} /> */}
         </div>
       </div>
       <nav className={styles.nav}>
