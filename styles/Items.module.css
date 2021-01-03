@@ -1,6 +1,6 @@
 .container {
   margin: 50px;
-  width: 90%;
+  width: 75%;
   display: grid;
   grid-template-columns: repeat(24, 1fr);
   grid-template-rows: repeat(20, 1fr);
