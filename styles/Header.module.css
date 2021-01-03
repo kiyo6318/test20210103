@@ -4,6 +4,7 @@
 
 .flex_container{
   display: flex;
+  margin: 0 10%;
 }
 
 .logo{
@@ -12,6 +13,7 @@
 
 .nav{
   margin-left: 10rem;
+  margin: 0 15%;
 }
 
 .nav :link{
@@ -29,18 +31,18 @@
 }
 
 .instagram{
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .facebook{
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   margin-left: 2rem;
 }
 
 .email{
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   margin-left: 2rem;
 }

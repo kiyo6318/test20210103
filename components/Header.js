@@ -19,6 +19,7 @@ export default function Header() {
           {/* <Email className={styles.email} /> */}
           <img className={styles.instagram} src="/images/instagram-icon.svg" />
           <img className={styles.facebook} src="/images/facebook-icon.svg" />
+          {/* <img className={styles.facebook} src="/images/facebook-square.svg" /> */}
           <img className={styles.email} src="/images/email-icon.svg" />
         </div>
       </div>
