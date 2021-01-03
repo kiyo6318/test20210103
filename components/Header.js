@@ -11,10 +11,15 @@ export default function Header() {
     <div className={styles.container}>
       <div className={styles.flex_container}>
         {/* <Logo className={styles.logo}/> */}
+        {/* <div className={styles.logo}><img src="/images/logo.svg" /></div> */}
+        <img className={styles.logo} src="/images/logo.svg" />
         <div className={styles.external}>
           {/* <Instagram className={styles.instagram} /> */}
           {/* <Facebook className={styles.facebook} /> */}
           {/* <Email className={styles.email} /> */}
+          <img className={styles.instagram} src="/images/instagram-icon.svg" />
+          <img className={styles.facebook} src="/images/facebook-icon.svg" />
+          <img className={styles.email} src="/images/email-icon.svg" />
         </div>
       </div>
       <nav className={styles.nav}>

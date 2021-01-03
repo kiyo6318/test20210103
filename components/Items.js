@@ -1,5 +1,6 @@
 import React, {ReactNode} from 'react'
 import styles from '../styles/Items.module.css'
+import Link from 'next/link'
 
 export default function Items(){
   return(
@@ -13,6 +14,11 @@ export default function Items(){
       <div className={styles.div7}><img src="/images/under_construction.png" /></div>
       <div className={styles.div8}><img src="/images/under_construction.png" /></div>
       <div className={styles.div9}><img src="/images/under_construction.png" /></div>
+      <div className={styles.div10 + ' ' + styles.project_list}>
+        <Link href='/'>
+          project list
+        </Link>
+      </div>
     </div>
   )
 }
