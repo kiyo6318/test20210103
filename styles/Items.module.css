@@ -1,11 +1,11 @@
-.container {
-  margin: 50px;
-  width: 75%;
-  display: grid;
-  grid-template-columns: repeat(24, 1fr);
-  grid-template-rows: repeat(20, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  .container {
+    margin: 50px;
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
   }
 
   .div1 { grid-area: 1 / 2 / 6 / 11;  }
