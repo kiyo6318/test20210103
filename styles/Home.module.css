@@ -114,6 +114,13 @@
   height: 1em;
 }
 
+.project_list {
+  font-size: 3rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

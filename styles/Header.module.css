@@ -1,0 +1,46 @@
+.container{
+  width: 100%;
+}
+
+.flex_container{
+  display: flex;
+}
+
+.logo{
+  width: 50rem;
+}
+
+.nav{
+  margin-left: 10rem;
+}
+
+.nav :link{
+  font-size: 3rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 2rem;
+  text-decoration: underline;
+}
+
+.external{
+  height: 100%;
+  display: flex;
+  margin-top: 22rem;
+}
+
+.instagram{
+  width: 5rem;
+  height: 5rem;
+}
+
+.facebook{
+  width: 5rem;
+  height: 5rem;
+  margin-left: 2rem;
+}
+
+.email{
+  width: 5rem;
+  height: 5rem;
+  margin-left: 2rem;
+}
