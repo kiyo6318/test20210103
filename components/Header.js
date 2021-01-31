@@ -20,7 +20,7 @@ export default function Header() {
         <Link href="/" className={styles.nav_link}>
           nogi store
         </Link>
-        <Link href="/" className={styles.nav_link}>
+        <Link href="/contact" className={styles.nav_link}>
           contact
         </Link>
       </nav>
