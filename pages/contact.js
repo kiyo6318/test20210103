@@ -3,7 +3,6 @@ import styles from '../styles/Contact.module.css'
 export default function Contact() {
   return(
     <div className={styles.container}>
-      <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charSet="UTF-8"></script>
       <p className={styles.title}>お問い合わせ</p>
         <form className={"h-adr" + " " + styles.form_style}>
           <label className={styles.name} htmlFor="name"><span>お名前</span><input type="text" name="name" placeholder="禾乃アイ" /></label>
@@ -21,7 +20,7 @@ export default function Contact() {
           </label>
           <label className={styles.address}>
             <span>ご住所</span>
-            <input type="text" className="p-region p-locaty p-street-address p-extended-address" placeholder="xx県xx市xxxx123-4" />
+            <input type="text" className="p-region p-locality p-street-address p-extended-address" placeholder="xx県xx市xxxx123-4" />
           </label>
           <textarea rows="15" cols="100" placeholder="お問い合わせ内容"></textarea>
           <label className={styles.button_wrapper}>
@@ -30,6 +29,7 @@ export default function Contact() {
             </button>
           </label>
         </form>
+        <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charSet="UTF-8"></script>
     </div>
   )
 }
