@@ -1,8 +1,12 @@
 import styles from '../styles/Contact.module.css'
+import Head from 'next/head'
 
 export default function Contact() {
   return(
     <div className={styles.container}>
+      <Head>
+        <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charSet="UTF-8"></script>
+      </Head>
       <p className={styles.title}>お問い合わせ</p>
         <form className={"h-adr" + " " + styles.form_style}>
           <label className={styles.name} htmlFor="name"><span>お名前</span><input type="text" name="name" placeholder="禾乃アイ" /></label>
@@ -29,7 +33,6 @@ export default function Contact() {
             </button>
           </label>
         </form>
-        <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charSet="UTF-8"></script>
     </div>
   )
 }

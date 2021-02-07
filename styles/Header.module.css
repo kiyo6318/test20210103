@@ -1,23 +1,23 @@
-.container{
+.wrapper {
   width: 100%;
 }
 
-.flex_container{
+.pc_container {
   display: flex;
   margin: 0 21%;
 }
 
-.logo{
+.pc_logo {
   margin-top: 10rem;
   width: 260px;
 }
 
-.nav{
+.pc_nav {
   margin: 0 20%;
   margin-top: 30px;
 }
 
-.nav :link{
+.pc_nav :link {
   font-size: 3rem;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
@@ -25,26 +25,64 @@
   text-decoration: underline;
 }
 
-.external{
+.pc_external {
   height: 100%;
   display: flex;
   margin-left: 5rem;
   margin-top: 22rem;
 }
 
-.instagram{
+.pc_instagram {
   width: 4rem;
   height: 4rem;
 }
 
-.facebook{
+.pc_facebook {
   width: 4rem;
   height: 4rem;
   margin-left: 2rem;
 }
 
-.email{
+.pc_email {
   width: 4rem;
   height: 4rem;
+  margin-left: 2rem;
+}
+
+.sp_container {
+  margin: 0 10%;
+}
+
+.sp_logo {
+  margin-top: 3rem;
+  width: 150px;
+}
+
+.sp_nav {
+  margin-top: 1rem;
+  margin-left: -1.5rem;
+}
+
+.sp_nav :link {
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 2rem;
+  text-decoration: underline;
+}
+
+.sp_external {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sp_instagram {
+  width: 2rem;
+  height: 2rem;
+}
+
+.sp_email {
+  width: 2rem;
+  height: 2rem;
   margin-left: 2rem;
 }

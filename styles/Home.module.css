@@ -1,4 +1,4 @@
-.container {
+.pc_container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -7,14 +7,6 @@
   align-items: center;
 }
 
-.logo {
-  height: 1em;
-}
-
-.project_list {
-  margin-bottom: 3rem;
-  font-size: 3rem;
-  font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
-  text-decoration: underline;
+.sp_container {
+  margin: 1rem 0;
 }

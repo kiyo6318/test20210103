@@ -1,7 +1,14 @@
-.copyright{
+.copyright {
   margin-bottom: 2rem;
   text-align: center;
   font-size: large;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sp_copyright {
+  text-align: center;
+  font-size: medium;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
 }
