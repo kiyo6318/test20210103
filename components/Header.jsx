@@ -1,22 +1,12 @@
 import React, { ReactNode } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Header.module.css';
-import { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive';
 
 export default function Header() {
-  const Pc = ({ children }) => {
-    const isPcScreen = useMediaQuery({ minWidth: 767 });
-    return isPcScreen ? children : null;
-  };
-
-  const Sp = ({ children }) => {
-    const isSpScreen = useMediaQuery({ maxWidth: 767 });
-    return isSpScreen ? children : null;
-  };
-
   return (
     <div className={styles.wrapper}>
-      <Pc>
+      <MediaQuery query="(min-width: 767px)">
         <div className={styles.pc_container}>
           <img className={styles.pc_logo} src="/images/nogi-store-logo.svg" />
           <div className={styles.pc_external}>
@@ -41,8 +31,8 @@ export default function Header() {
             contact
           </Link>
         </nav>
-      </Pc>
-      <Sp>
+      </MediaQuery>
+      <MediaQuery query="(max-width: 767px)">
         <div className={styles.sp_container}>
           <img className={styles.sp_logo} src="/images/nogi-store-logo.svg" />
           <nav className={styles.sp_nav}>
@@ -67,7 +57,7 @@ export default function Header() {
             </Link>
           </div>
         </div>
-      </Sp>
+      </MediaQuery>
     </div>
   );
 }

@@ -1,15 +1,16 @@
 import React from 'react';
 import styles from '../styles/Footer.module.css';
-import { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive';
 
 export default function Footer() {
-  const isPcScreen = useMediaQuery({
-    query: '(min-device-width: 767px)',
-  });
-
   return (
-    <div className={isPcScreen ? styles.copyright : styles.sp_copyright}>
-      Copyright © nogistore All Rights Reserved.
+    <div>
+      <MediaQuery query="(min-width: 767px)">
+        <div className={styles.copyright}>Copyright © nogistore All Rights Reserved.</div>
+      </MediaQuery>
+      <MediaQuery query="(max-width: 767px)">
+        <div className={styles.sp_copyright}>Copyright © nogistore All Rights Reserved.</div>
+      </MediaQuery>
     </div>
   );
 }
