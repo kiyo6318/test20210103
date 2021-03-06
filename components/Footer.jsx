@@ -4,13 +4,13 @@ import MediaQuery from 'react-responsive';
 
 export default function Footer() {
   return (
-    <div>
+    <>
       <MediaQuery query="(min-width: 767px)">
         <div className={styles.copyright}>Copyright © nogistore All Rights Reserved.</div>
       </MediaQuery>
       <MediaQuery query="(max-width: 767px)">
         <div className={styles.sp_copyright}>Copyright © nogistore All Rights Reserved.</div>
       </MediaQuery>
-    </div>
+    </>
   );
 }
