@@ -100,7 +100,7 @@ export default function Contact() {
             </label>
           </p>
           <p>
-            <textarea rows="15" cols="51" placeholder="お問い合わせ内容"></textarea>
+            <textarea className={styles.sp_textarea} placeholder="お問い合わせ内容"></textarea>
           </p>
           <p className={styles.sp_button_wrapper}>
             <label>
