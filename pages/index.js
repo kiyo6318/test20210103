@@ -10,7 +10,6 @@ export default function Home() {
     <>
       <Head>
         <title>nogi store</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Items />
     </>

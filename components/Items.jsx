@@ -35,7 +35,7 @@ export default function Items() {
             <img src="/images/under_construction.png" />
           </div>
           <div className={styles.div10 + ' ' + styles.project_list}>
-            <Link href="/">project list</Link>
+            <Link href="/projects">project list</Link>
           </div>
         </div>
       </MediaQuery>
@@ -69,7 +69,7 @@ export default function Items() {
             <img src="/images/under_construction.png" />
           </div>
           <div className={styles.div10 + ' ' + styles.project_list}>
-            <Link href="/">project list</Link>
+            <Link href="/projects">project list</Link>
           </div>
         </div>
       </MediaQuery>

@@ -7,7 +7,7 @@ export default function Contact() {
     <div className={styles.wrapper}>
       <MediaQuery query="(min-width: 767px)">
         <form className={'h-adr' + ' ' + styles.form_style + ' ' + styles.pc_container}>
-          <p className={styles.title}>お問い合わせ</p>
+          <p className={styles.title}>お問い合わせフォーム　※準備中</p>
           <label className={styles.name} htmlFor="name">
             <span>お名前</span>
             <input type="text" name="name" placeholder="禾乃アイ" />
