@@ -8,9 +8,9 @@ const projects = ({ projects }) => {
   });
 
   mapped.sort((a, b) => {
-    if (a.createdAt < b.createdAt) {
+    if (a.updateAt > b.updateAt) {
       return 1;
-    } else if (a.createdAt < b.createdAt) {
+    } else if (a.updateAt < b.updateAt) {
       return -1;
     }
     return 0;
