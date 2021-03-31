@@ -52,6 +52,12 @@
   width: 400px;
 }
 
+.tmp_info {
+  width: 50%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 /* .sp_container {
   margin: 0 auto;
   font-size: 2.5rem;
