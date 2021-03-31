@@ -7,8 +7,8 @@ const ProjectId = ({ project }) => {
       <div className={styles.img}>
         <img src={project.image.url} alt="image" />
       </div>
-      <p>{project.category_ja}</p>
-      <p>{project.year}</p>
+      <p className={styles.category_ja}>{project.category_ja}</p>
+      <p className={styles.year}>{project.year}</p>
       <div className={styles.body}>{project.body}</div>
     </div>
   );
