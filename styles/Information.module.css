@@ -1,0 +1,21 @@
+.body {
+  margin: 10rem auto;
+  width: 60%;
+  font-size: 1.5rem;
+}
+
+.sp_body {
+  margin: 2rem 1.5rem;
+  width: 85%;
+  font-size: 1.5rem;
+}
+
+.body img {
+  width: 250px;
+  height: 250px;
+}
+
+.sp_body img {
+  width: 200px;
+  height: 180px;
+}

@@ -8,31 +8,35 @@ export default function Items() {
       <MediaQuery query="(min-width: 767px)">
         <div className={styles.pc_container}>
           <div className={styles.div1}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/001.png" />
           </div>
           <div className={styles.div2}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/002.png" />
           </div>
           <div className={styles.div3}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/003.png" />
           </div>
           <div className={styles.div4}>
-            <img src="/images/under_construction.png" />
+            <Link href="/projects">
+              <img src="/images/004.png" />
+            </Link>
           </div>
           <div className={styles.div5}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/006.png" />
           </div>
           <div className={styles.div6}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/007.png" />
           </div>
           <div className={styles.div7}>
-            <img src="/images/under_construction.png" />
+            <Link href="/contact">
+              <img src="/images/009.png" />
+            </Link>
           </div>
           <div className={styles.div8}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/005.png" />
           </div>
           <div className={styles.div9}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/008.png" />
           </div>
           <div className={styles.div10 + ' ' + styles.project_list}>
             <Link href="/projects">project list</Link>
@@ -42,31 +46,31 @@ export default function Items() {
       <MediaQuery query="(max-width: 767px)">
         <div className={styles.sp_container}>
           <div className={styles.div1}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/001.png" />
           </div>
           <div className={styles.div2}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/002.png" />
           </div>
           <div className={styles.div3}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/003.png" />
           </div>
           <div className={styles.div4}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/004.png" />
           </div>
           <div className={styles.div5}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/006.png" />
           </div>
           <div className={styles.div6}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/007.png" />
           </div>
           <div className={styles.div7}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/009.png" />
           </div>
           <div className={styles.div8}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/005.png" />
           </div>
           <div className={styles.div9}>
-            <img src="/images/under_construction.png" />
+            <img src="/images/008.png" />
           </div>
           <div className={styles.div10 + ' ' + styles.project_list}>
             <Link href="/projects">project list</Link>

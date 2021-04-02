@@ -1,6 +1,10 @@
 import styles from '../../styles/ProjectDetail.module.css';
 
 const ProjectId = ({ project }) => {
+  function createMarkup() {
+    return { __html: project.body };
+  }
+
   return (
     <div className={styles.pc_container}>
       <div className={styles.title}>{project.title_ja}</div>
@@ -9,7 +13,7 @@ const ProjectId = ({ project }) => {
       </div>
       <p className={styles.category_ja}>{project.category_ja}</p>
       <p className={styles.year}>{project.year}</p>
-      <div className={styles.body}>{project.body}</div>
+      <div className={styles.body} dangerouslySetInnerHTML={createMarkup()} />
     </div>
   );
 };

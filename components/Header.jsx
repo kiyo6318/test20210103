@@ -8,7 +8,9 @@ export default function Header() {
     <div className={styles.wrapper}>
       <MediaQuery query="(min-width: 767px)">
         <div className={styles.pc_container}>
-          <img className={styles.pc_logo} src="/images/nogi-store-logo.svg" />
+          <Link href="/">
+            <img className={styles.pc_logo} src="/images/nogi-store-logo.svg" />
+          </Link>
           <div className={styles.pc_external}>
             <Link href="https://www.instagram.com/nogi.store/">
               <a target="_blank">
@@ -24,7 +26,7 @@ export default function Header() {
           <Link href="/" className={styles.pc_nav_link}>
             top
           </Link>
-          <Link href="/" className={styles.pc_nav_link}>
+          <Link href="/information" className={styles.pc_nav_link}>
             nogi store
           </Link>
           <Link href="/contact" className={styles.pc_nav_link}>
@@ -39,7 +41,7 @@ export default function Header() {
             <Link href="/" className={styles.sp_nav_link}>
               top
             </Link>
-            <Link href="/" className={styles.sp_nav_link}>
+            <Link href="/information" className={styles.sp_nav_link}>
               nogi store
             </Link>
             <Link href="/contact" className={styles.sp_nav_link}>

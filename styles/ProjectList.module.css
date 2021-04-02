@@ -20,3 +20,25 @@
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
+
+.sp_title {
+  margin: 2rem 5%;
+  font-size: 2rem;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
+.sp_wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.sp_container_ja {
+  font-size: 1.5rem;
+}
+
+.sp_container_en {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
