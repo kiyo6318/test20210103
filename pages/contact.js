@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className={styles.wrapper}>
       <MediaQuery query="(min-width: 767px)">
-        <form className={'h-adr' + ' ' + styles.form_style + ' ' + styles.pc_container}>
+        <form className={styles.form_style + ' ' + styles.pc_container} method="POST" netlify>
           <p className={styles.title}>お問い合わせ</p>
           <div className={styles.tmp_info}>
             <p>nogi store</p>
@@ -55,7 +55,7 @@ export default function Contact() {
         </form>
       </MediaQuery>
       <MediaQuery query="(max-width: 767px)">
-        <form className={'h-adr' + ' ' + styles.sp_form_style}>
+        <form className={styles.sp_form_style} method="POST" netlify>
           <p className={styles.sp_title}>お問い合わせ</p>
           <p>
             <label className={styles.sp_name} htmlFor="name">
