@@ -57,6 +57,11 @@ export default function Contact() {
       <MediaQuery query="(max-width: 767px)">
         <form className={styles.sp_form_style} method="POST" netlify>
           <p className={styles.sp_title}>お問い合わせ</p>
+          <div className={styles.sp_tmp_info}>
+            <p>nogi store</p>
+            <p>contact@nogistore.net</p>
+          </div>
+          <p className={styles.sp_title}>お問い合わせフォーム　※準備中</p>
           <p>
             <label className={styles.sp_name} htmlFor="name">
               <span>お名前</span>

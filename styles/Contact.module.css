@@ -125,3 +125,10 @@
   border: 1px solid gray;
   outline: none;
 }
+
+.sp_tmp_info {
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
