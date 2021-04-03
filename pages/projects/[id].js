@@ -8,9 +8,11 @@ const ProjectId = ({ project }) => {
   return (
     <div className={styles.pc_container}>
       <div className={styles.title}>{project.title_ja}</div>
-      <div className={styles.img}>
-        <img src={project.image.url} alt="image" />
-      </div>
+      {project.image ? (
+        <div className={styles.img}>
+          <img src={project.image.url} alt="image" />
+        </div>
+      ) : null}
       <p className={styles.category_ja}>{project.category_ja}</p>
       <p className={styles.year}>{project.year}</p>
       <div className={styles.body} dangerouslySetInnerHTML={createMarkup()} />
