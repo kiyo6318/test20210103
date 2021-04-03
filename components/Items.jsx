@@ -18,7 +18,9 @@ export default function Items() {
           </div>
           <div className={styles.div4}>
             <Link href="/projects">
-              <img src="/images/004.png" />
+              <a>
+                <img src="/images/004.png" />
+              </a>
             </Link>
           </div>
           <div className={styles.div5}>
@@ -29,7 +31,9 @@ export default function Items() {
           </div>
           <div className={styles.div7}>
             <Link href="/contact">
-              <img src="/images/009.png" />
+              <a>
+                <img src="/images/009.png" />
+              </a>
             </Link>
           </div>
           <div className={styles.div8}>
@@ -39,7 +43,9 @@ export default function Items() {
             <img src="/images/008.png" />
           </div>
           <div className={styles.div10 + ' ' + styles.project_list}>
-            <Link href="/projects">project list</Link>
+            <Link href="/projects">
+              <a>project list</a>
+            </Link>
           </div>
         </div>
       </MediaQuery>
@@ -55,7 +61,11 @@ export default function Items() {
             <img src="/images/003.png" />
           </div>
           <div className={styles.div4}>
-            <img src="/images/004.png" />
+            <Link href="/projects">
+              <a>
+                <img src="/images/004.png" />
+              </a>
+            </Link>
           </div>
           <div className={styles.div5}>
             <img src="/images/006.png" />
@@ -64,7 +74,11 @@ export default function Items() {
             <img src="/images/007.png" />
           </div>
           <div className={styles.div7}>
-            <img src="/images/009.png" />
+            <Link href="/contact">
+              <a>
+                <img src="/images/009.png" />
+              </a>
+            </Link>
           </div>
           <div className={styles.div8}>
             <img src="/images/005.png" />
@@ -73,7 +87,9 @@ export default function Items() {
             <img src="/images/008.png" />
           </div>
           <div className={styles.div10 + ' ' + styles.project_list}>
-            <Link href="/projects">project list</Link>
+            <Link href="/projects">
+              <a>project list</a>
+            </Link>
           </div>
         </div>
       </MediaQuery>
