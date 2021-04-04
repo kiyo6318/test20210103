@@ -22,25 +22,25 @@
 }
 .pc_container .div4 {
   grid-area: 4 / 2 / 6 / 7;
-  margin-top: -15px;
-  height: 55%;
+  margin-top: -15%;
+  height: 60%;
 }
 .pc_container .div5 {
   grid-area: 4 / 7 / 7 / 18;
 }
 .pc_container .div6 {
   grid-area: 3 / 18 / 7 / 24;
-  margin-top: 40px;
+  margin-top: 18%;
   height: 80%;
 }
 .pc_container .div7 {
   grid-area: 7 / 18 / 10 / 24;
-  margin-top: -15px;
+  margin-top: -15%;
   height: 80%;
 }
 .pc_container .div8 {
   grid-area: 5 / 2 / 7 / 7;
-  /* margin-top: -20px; */
+  margin-top: -3%;
   height: 110%;
 }
 .pc_container .div9 {
